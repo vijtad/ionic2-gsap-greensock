@@ -1,0 +1,37 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            GSAP Ionic 2 example
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<style type="text/css">
+    div.inline { float:left; }
+    .clearBoth { clear:both; }
+</style>
+<ion-content padding>
+    <button ion-button round id="start" (click) = "start()">Start</button>
+    <button ion-button round id="pause" (click)= "pause()">Pause</button>
+    <button ion-button round id="stop" (click)= "stop()">Stop</button>
+    <button ion-button round id="reverse" (click)= "reverse()">Reverse</button>
+    <ion-list >
+    <ion-item >
+     <ion-row>
+        <ion-col width=120>
+            <h1 color="primary" class="letterV">V</h1>
+        </ion-col>
+        <ion-col width=120>
+            <h1  color="primary" class="letterP">P</h1>
+        </ion-col>
+        <ion-col width=120>
+            <h1 color="primary" class="letterT">T</h1>
+        </ion-col>
+     </ion-row>
+    </ion-item>
+ 
+    <ion-item>
+        <ion-label class="mainTitle">GreenSock</ion-label>
+    </ion-item>
+</ion-list>
+ 
+</ion-content>

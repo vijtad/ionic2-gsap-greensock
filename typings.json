@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "greensock": "registry:dt/greensock#1.15.1+20161123140940",
+    "jquery": "registry:dt/jquery#1.10.0+20160929162922"
+  }
+}
